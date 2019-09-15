@@ -1,15 +1,14 @@
 import React from 'react';
 
-const ImageCard = ({ backgroundColor, selectedCharacter, onImageClick }) => {
+const ImageCard = ({ selectedVillager, onImageClick }) => {
   return (
     <div className='col s3'>
-      {/* <div className={`card hoverable ${backgroundColor} lighten-3`} */}
-        onClick={() => { onImageClick(selectedCharacter) }}>
-      <div className='card-image'>
-        <img src={`assets/img/${selectedCharacter}.png`} alt='Characters' />
+      <div className={'card'}onClick={() => { onImageClick(selectedVillager) }}>
+        <div className='card-image'>
+          <img src={`assets/img/${selectedVillager}.png`} alt='Villagers' />
+        </div>
       </div>
     </div>
-    // </div>
   );
 };
 
