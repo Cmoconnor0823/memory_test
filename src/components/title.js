@@ -1,15 +1,15 @@
 import React from 'react';
 
-const Cover = () => {
+const Title = () => {
   return (
-    <div className= 'center-align align-wrapper'>
+    <div className= 'center-align'>
 
       <div className='container'>
         <div className='row'>
-          <h2 className='header col-lg-12 light'>Don't click on any image more than once!</h2>
+          <h2 className='header col-lg-12 light'>Don't click on any picture more than once!</h2>
         </div>
       </div>
     </div>
   );
 };
-export default Cover;
+export default Title;
