@@ -1,12 +1,23 @@
 import React from 'react';
 import ImageCards from './image';
 
-const Container = ({ villagers, onImageClick }) => {
+const Container = ({ villagers, index, onImageClick }) => {
+  const Villagers = villagers.map((villager, index) => {
+
+    return (
+      <ImageCards
+        key={villager.id}
+        selectedVillager={villagers[index]}
+        onImageClick={onImageClick}
+      />
+    )
+  })
   return (
-    <ImageCards
-      selectedVillager={villagers}
-      onImageClick={onImageClick}
-    />
+    <div className="container">
+      <div className="row">
+        {Villagers}
+      </div>
+    </div>
   )
 };
 

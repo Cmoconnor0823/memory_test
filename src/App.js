@@ -34,7 +34,7 @@ class App extends Component {
     currentScore++
     _.delay(() => {
       this.setState({ info: 'Choose your next villager!' })
-    }, 700)
+    }, 900)
     if (currentScore >= currentTopScore) {
       return this.setState({ score: currentScore, topScore: currentScore, info: `${name} (Correct!)` })
     };
@@ -64,7 +64,8 @@ class App extends Component {
   // eslint-disable-next-line lines-between-class-members
   handleSelectVillagers (name) {
   this.checkUserChoice(name)
-  };
+  }
+;
   render () {
     return (
       <div>
