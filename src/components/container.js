@@ -15,7 +15,11 @@ const Container = ({ villagers, index, onImageClick }) => {
   return (
     <div className="container">
       <div className="row">
-        {Villagers}
+        <div className="col col-lg-12">
+          <div className="card-deck">
+            {Villagers}
+          </div>
+        </div>
       </div>
     </div>
   )

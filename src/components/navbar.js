@@ -3,14 +3,14 @@ import React from 'react';
 const NavBar = ({ score, topScore, message }) => {
   return (
     <div className='container'>
-      <nav>
+      <nav className='navbar sticky-top navbar-lg navbar-light bg-light'>
         <div className='col'>
           <div className='row'>
-            <a href='/'><b className='text-secondary'>React Memory-Clicky Game</b></a>
+            <a className="navbar-brand" href='/'><b className='text-secondary'>React Memory-Clicky Game</b></a>
           </div>
           <div className='col'>
             <div className='row'>
-              <span>{message}</span>
+              <span className="navbar-text">{message}</span>
             </div>
           </div>
           <div className='col'>
