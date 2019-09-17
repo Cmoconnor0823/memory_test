@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='footer'>
-      <div className='container'>
+    <footer className='page-footer m-3 p-2'>
+      <div className='container container-fluid text-center'>
         <div className='col'>
           <div className='row'>
             <a className='text-primary' href='https://github.com/Cmoconnor0823/memory_test' target='_blank' rel="noopener noreferrer">Find me on Git Hub!</a>

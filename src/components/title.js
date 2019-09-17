@@ -6,7 +6,7 @@ const Title = ({ score, topScore }) => {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <h3 className='header col-lg-12 light'>Don't click on any picture more than once!</h3>
+            <h4 className='header col-lg-12 light text-secondary'>Try not to click on any villager more than once!</h4>
           </div>
         </div>
       </div>
