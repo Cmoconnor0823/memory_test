@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const NavBar = ({ score, topScore, message }) => {
   return (
     <div className='container'>

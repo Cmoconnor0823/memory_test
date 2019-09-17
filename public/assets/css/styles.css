@@ -1,6 +1,12 @@
 body {
     padding-top: 20px;
-  }
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .card {
 	border: 1px solid white;
 	width: 200px;

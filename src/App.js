@@ -40,7 +40,7 @@ class App extends Component {
     };
     return this.setState({ score: currentScore, info: `${name} (Correct! Choose Another Villager!)` })
   };
-  
+
   checkUserChoice (name) {
     if (this.state.selectedVillagers.indexOf(name) === -1) {
       //
@@ -48,13 +48,15 @@ class App extends Component {
       this.topScoreUpdater(this.state.score, this.state.topScore, name)
       //
       if (this.state.selectedVillagers.length === villagers.length) {
-        this.setState({ selectedVillagers: [] })
+        _.delay(() => {
+          this.setState({ score: 0, selectedVillagers: [], info: `${name} (You've Won!!! Click another Villager to Play Again!)` })
+        }, 900)
       };
     } else {
       //
       _.delay(() => {
         this.setState({ info: 'Try Again!' })
-      }, 500)
+      }, 900)
       //
       this.setState({ score: 0, selectedVillagers: [], info: `${name} (You've Chosen This one Already! Try Again!)` })
     }
@@ -63,9 +65,9 @@ class App extends Component {
   };
   // eslint-disable-next-line lines-between-class-members
   handleSelectVillagers (name) {
-  this.checkUserChoice(name)
+    this.checkUserChoice(name)
   }
-;
+  ;
   render () {
     return (
       <div>
@@ -77,6 +79,7 @@ class App extends Component {
         <Title />
         <div className="row"></div>
         <Container
+          villager={villagers}
           villagers={this.state.villagers}
           onImageClick={name => { this.handleSelectVillagers(name) }}
         />
