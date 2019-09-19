@@ -1,6 +1,6 @@
-# Memory_Test
 
-<h1>Description</h1>
+
+# Memory_Test Description
 <h5>This app is a memory game made with React. This project is an example of breaking up an application's UI into components, management of component state, and live responses to user events.
 .</h5>
 
