@@ -1,3 +1,60 @@
+# Memory_Test
+
+<h1>Description</h1>
+<h5>This app is a memory game made with React. This project is an example of breaking up an application's UI into components, management of component state, and live responses to user events.
+.</h5>
+
+<h2>Set up</h2>
+<h5>
+To run the application locally  please follow the steps below:
+** or visit [This link will open the live page on Heroku](https://serene-tor-67062.herokuapp.com/)
+
+
+* clone into the repo using this link: https://github.com/Cmoconnor0823/Friend_Finder.git 
+* cd Friend_Finder
+* npm install
+* node server.js </h5>
+
+
+<h3>Playing Memory Test!</h3>
+<h6>When the application is loaded you will be taken to the home page.  To begin play simply click on any one of the pictures. From there they will scramble. Try to click a different picture than you have and you will score a point. if not the score will reset and you can try again. Try to get all 12!</h6>
+
+![Image of Site Home Page](/public/assets/img/Memory_test.png)
+<br>
+
+
+
+<h2>Technology</h2>
+This page was built with the following NPM Modules, and technologies:
+
+
+* [React](https://reactjs.org/) 
+
+* [lodash](https://www.npmjs.com/package/lodash)
+
+* [eslint](https://www.npmjs.com/package/eslint)
+
+* [BootStrap](https://getbootstrap.com/)
+
+* [Git Bash](https://gitforwindows.org/)
+
+* [Heroku](https://id.heroku.com/login)
+
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+
+
+
+
+For comments/ concerns contact the project 
+Author: Caitlin O'Connor  
+At: Cmoconnor0823@gmail.com
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
