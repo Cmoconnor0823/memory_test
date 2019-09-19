@@ -2,13 +2,11 @@
 
 # Memory_Test Description
 <h5>This app is a memory game made with React. This project is an example of breaking up an application's UI into components, management of component state, and live responses to user events.
-.</h5>
+</h5>
 
 <h2>Set up</h2>
-<h5>
-To run the application locally  please follow the steps below:
-** or visit [This link will open the live page on Heroku](https://serene-tor-67062.herokuapp.com/)
-
+<h4>To play the game visit [This link will open the live page on Heroku](https://serene-tor-67062.herokuapp.com/) <h4>
+<h5>To run the application locally  please follow the steps below:<br>
 
 * clone into the repo using this link: https://github.com/Cmoconnor0823/Friend_Finder.git 
 * cd Friend_Finder
